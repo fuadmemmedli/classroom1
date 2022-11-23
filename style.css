@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    color: #272727;
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    }
+
+
+.nav1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+    border: 1px solid grey;
+
+}
+.s1{
+    color: blue;
+}
+.s2{
+    color: red;
+}
+.s3{
+    color: rgb(230, 181, 20);
+}
+.s4{
+    color: blue;
+}
+.s5{
+    color: green;
+}
+.s6{
+    color: red;
+}
+
+.fon1{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+button{
+    background-color: white;
+    border: none;
+}
+
+.fon2{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.fon2 span{
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(150, 3, 180);
+    color: whitesmoke;
+}
+.fon3{
+    width: 10%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fon3 button{
+    color: blue;
+}
+
+.fon4{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+
+.fon4 div{
+    width: 250px;
+    height: 280px;
+    background-color: white;
+    border: 1px solid grey;
+
+}
+.fon44{
+
+    background-image: url(https://madavnews.ru/wp-content/uploads/2021/11/opened-book.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 150px;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.card_content {
+    padding: 1rem;
+  }
+
+.fon4 span{
+    top: 200px;
+}
+
+.card {
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 10px 10px #a09d9d;
+}
+
+@media screen and (max-width: 600px) {
+    .fon4 {
+      width: 100%;
+      display: block;
+     
+    }
+  }
+  .card {
+
+   
+    background-color: #f1f1f1;
+  }
